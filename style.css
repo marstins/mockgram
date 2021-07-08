@@ -132,13 +132,22 @@ body {
 
 @media (max-width: 1024px) {
     .wrapper {
-        width: 90%;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .phone {
+        max-width: 40%;
+    }
+
+    .continue {
+        max-width: 40%;
     }
 }
 
 @media (max-width: 650px) {
     body {
-        background: white;
+        background: #212121;
     }
 
     .login-group {
@@ -146,7 +155,8 @@ body {
     }
     
     .wrapper {
-        width: 90%;
+        width: 100%;
+        margin: 0 3rem;
     }
 
     .phone {
