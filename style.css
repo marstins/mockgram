@@ -118,16 +118,8 @@ body {
 
 .app-download {
     height: 3rem;
-    width: 10.5rem;
+    width: 10rem;
     background-size: cover;
-}
-
-.app-download:nth-child(1) {
-    background-image: url(img/apple.png);
-}
-
-.app-download:nth-child(2) {
-    background-image: url(img/googleplay.png);
 }
 
 @media (max-width: 1024px) {
@@ -165,5 +157,9 @@ body {
 
     .continue {
         width: 100%;
+    }
+
+    .download-links {
+        flex-direction: column;
     }
 }
